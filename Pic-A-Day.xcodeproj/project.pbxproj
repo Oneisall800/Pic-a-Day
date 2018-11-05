@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF417700218FDBA500FEB204 /* Pic_A_DayUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4176FF218FDBA500FEB204 /* Pic_A_DayUnitTests.swift */; };
 		DC69FD40218900A2008BCF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69FD3F218900A2008BCF28 /* AppDelegate.swift */; };
 		DC69FD42218900A2008BCF28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69FD41218900A2008BCF28 /* ViewController.swift */; };
 		DC69FD45218900A2008BCF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC69FD43218900A2008BCF28 /* Main.storyboard */; };
@@ -24,7 +25,20 @@
 		DC96802D218A2F3700F6861C /* ClipboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96802C218A2F3700F6861C /* ClipboardViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CF417702218FDBA500FEB204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC69FD34218900A2008BCF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC69FD3B218900A2008BCF28;
+			remoteInfo = "Pic-A-Day";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		CF4176FD218FDBA500FEB204 /* Pic-A-DayUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pic-A-DayUnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4176FF218FDBA500FEB204 /* Pic_A_DayUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pic_A_DayUnitTests.swift; sourceTree = "<group>"; };
+		CF417701218FDBA500FEB204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC69FD3C218900A2008BCF28 /* Pic-A-Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pic-A-Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC69FD3F218900A2008BCF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC69FD41218900A2008BCF28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CF4176FA218FDBA500FEB204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC69FD39218900A2008BCF28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF4176FE218FDBA500FEB204 /* Pic-A-DayUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4176FF218FDBA500FEB204 /* Pic_A_DayUnitTests.swift */,
+				CF417701218FDBA500FEB204 /* Info.plist */,
+			);
+			path = "Pic-A-DayUnitTests";
+			sourceTree = "<group>";
+		};
 		DC69FD33218900A2008BCF28 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +94,7 @@
 				DC69FD5521890499008BCF28 /* Model */,
 				DC69FD5221890451008BCF28 /* View Controllers */,
 				DC69FD3E218900A2008BCF28 /* sample-app */,
+				CF4176FE218FDBA500FEB204 /* Pic-A-DayUnitTests */,
 				DC69FD3D218900A2008BCF28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				DC69FD3C218900A2008BCF28 /* Pic-A-Day.app */,
+				CF4176FD218FDBA500FEB204 /* Pic-A-DayUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +169,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CF4176FC218FDBA500FEB204 /* Pic-A-DayUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF417706218FDBA500FEB204 /* Build configuration list for PBXNativeTarget "Pic-A-DayUnitTests" */;
+			buildPhases = (
+				CF4176F9218FDBA500FEB204 /* Sources */,
+				CF4176FA218FDBA500FEB204 /* Frameworks */,
+				CF4176FB218FDBA500FEB204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF417703218FDBA500FEB204 /* PBXTargetDependency */,
+			);
+			name = "Pic-A-DayUnitTests";
+			productName = "Pic-A-DayUnitTests";
+			productReference = CF4176FD218FDBA500FEB204 /* Pic-A-DayUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DC69FD3B218900A2008BCF28 /* Pic-A-Day */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC69FD4E218900A2008BCF28 /* Build configuration list for PBXNativeTarget "Pic-A-Day" */;
@@ -160,10 +210,15 @@
 		DC69FD34218900A2008BCF28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Takudzwa Mhonde";
 				TargetAttributes = {
+					CF4176FC218FDBA500FEB204 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC69FD3B218900A2008BCF28;
+					};
 					DC69FD3B218900A2008BCF28 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -184,11 +239,19 @@
 			projectRoot = "";
 			targets = (
 				DC69FD3B218900A2008BCF28 /* Pic-A-Day */,
+				CF4176FC218FDBA500FEB204 /* Pic-A-DayUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CF4176FB218FDBA500FEB204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC69FD3A218900A2008BCF28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +265,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CF4176F9218FDBA500FEB204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF417700218FDBA500FEB204 /* Pic_A_DayUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC69FD38218900A2008BCF28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +294,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CF417703218FDBA500FEB204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC69FD3B218900A2008BCF28 /* Pic-A-Day */;
+			targetProxy = CF417702218FDBA500FEB204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		DC69FD43218900A2008BCF28 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -243,6 +322,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CF417704218FDBA500FEB204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pic-A-DayUnitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "PatrickC.Pic-A-DayUnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pic-A-Day.app/Pic-A-Day";
+			};
+			name = Debug;
+		};
+		CF417705218FDBA500FEB204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pic-A-DayUnitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "PatrickC.Pic-A-DayUnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pic-A-Day.app/Pic-A-Day";
+			};
+			name = Release;
+		};
 		DC69FD4C218900A2008BCF28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,6 +503,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CF417706218FDBA500FEB204 /* Build configuration list for PBXNativeTarget "Pic-A-DayUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF417704218FDBA500FEB204 /* Debug */,
+				CF417705218FDBA500FEB204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DC69FD37218900A2008BCF28 /* Build configuration list for PBXProject "Pic-A-Day" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
